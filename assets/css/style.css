@@ -390,6 +390,7 @@ a {
 
 .spot {
   position: relative;
+  isolation: isolate;
   margin: 0 -14px;
   padding-left: 14px;
   padding-right: 14px;
@@ -401,9 +402,10 @@ a {
   position: absolute;
   inset: 0;
   border-radius: inherit;
-  background: radial-gradient(420px circle at var(--mx, 50%) var(--my, 50%), var(--accent-soft), transparent 70%);
+  z-index: -1;
+  background: linear-gradient(110deg, rgba(var(--accent-rgb), 0.08), rgba(var(--accent-rgb), 0.025) 75%);
   opacity: 0;
-  transition: opacity 0.35s;
+  transition: opacity 0.3s;
   pointer-events: none;
 }
 

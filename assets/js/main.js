@@ -77,12 +77,4 @@
   lightbox.addEventListener("click", (e) => {
     if (e.target === lightbox) lightbox.close();
   });
-
-  document.querySelectorAll(".spot").forEach((el) => {
-    el.addEventListener("pointermove", (e) => {
-      const r = el.getBoundingClientRect();
-      el.style.setProperty("--mx", `${e.clientX - r.left}px`);
-      el.style.setProperty("--my", `${e.clientY - r.top}px`);
-    });
-  });
 })();
