@@ -1,16 +1,306 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
-  <title>Redirecting...</title>
-  <meta http-equiv="refresh" content="0; URL=https://www.linkedin.com/in/marianschneider03/">
-  <link rel="canonical" href="https://www.linkedin.com/in/marianschneider03/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Marian Schneider</title>
+  <meta name="description"
+    content="Marian Schneider is a Master's student in Computer Science at ETH Zurich, interested in reinforcement learning for large language models.">
+  <meta name="author" content="Marian Schneider">
+  <link rel="canonical" href="https://marischn.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://marischn.github.io/">
+  <meta property="og:title" content="Marian Schneider">
+  <meta property="og:description"
+    content="Master's student in Computer Science at ETH Zurich, interested in reinforcement learning for large language models.">
+  <meta property="og:image" content="https://marischn.github.io/assets/profile.jpg">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <meta name="theme-color" content="#fcfcfd" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0b0b0d" media="(prefers-color-scheme: dark)">
+  <script>
+    document.documentElement.classList.add("js");
+    try {
+      var theme = localStorage.getItem("theme");
+      if (theme === "light" || theme === "dark") document.documentElement.dataset.theme = theme;
+    } catch (e) { }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script defer src="assets/js/main.js"></script>
 </head>
 
 <body>
-  <p>Page currently WIP. Redirecting to LinkedIn... <a href="https://www.linkedin.com/in/marianschneider03/">Click
-      here</a> if you are not redirected.</p>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="nav-name" href="#top">Marian Schneider</a>
+      <nav class="nav-links" aria-label="Sections">
+        <span class="nav-indicator" aria-hidden="true"></span>
+        <a href="#publications">Publications</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+          stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
+        </svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+          stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="4" />
+          <path
+            d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41" />
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-inner">
+        <img class="avatar" src="assets/profile.jpg" alt="Portrait of Marian Schneider" width="116" height="116"
+          data-reveal>
+        <div>
+          <h1 data-reveal style="--d: 60ms">Marian Schneider</h1>
+          <p class="tagline" data-reveal style="--d: 120ms">MSc Computer Science · ETH Zurich</p>
+          <p class="email" data-reveal style="--d: 150ms">smarian [at] ethz [dot] ch</p>
+          <p class="bio" data-reveal style="--d: 180ms">
+            I'm a Master's student in Computer Science at ETH Zurich. My research interests lie in
+            <strong>post-training for large language models</strong>, in particular reinforcement learning and
+            self-improvement. I work on LLM post-training at the ETH AI Center, where I contributed to the
+            open-source model <a class="inline-link" href="https://huggingface.co/swiss-ai">Apertus</a>, but am
+            currently
+            interning at QuantCo as an AI Engineer Intern. Previous
+            experience includes research assistantships in Prof. Andreas Krause's group, Prof. Leif Kobbelt's group, and
+            internships at Optiver and Adobe Research.
+          </p>
+          <ul class="links" data-reveal style="--d: 240ms">
+            <li>
+              <a href="mailto:smarian@ethz.ch">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" aria-hidden="true">
+                  <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7" />
+                  <rect x="2" y="4" width="20" height="16" rx="2" />
+                </svg>
+                Email
+              </a>
+            </li>
+            <li>
+              <a href="https://scholar.google.com/citations?user=mDuPKawAAAAJ">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path
+                    d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z" />
+                </svg>
+                Scholar
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/MariSchn">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path
+                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                </svg>
+                GitHub
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/marianschneider03/">
+                <svg viewBox="0 0 448 512" fill="currentColor" aria-hidden="true">
+                  <path
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+                LinkedIn
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="publications">
+      <div class="container">
+        <h2 class="section-title">Publications</h2>
+        <div>
+          <ul class="rows">
+            <li class="row pub spot" data-reveal>
+              <button class="pub-fig" type="button">
+                <img src="assets/figures/activeultrafeedback.png" width="2000" height="479" loading="lazy"
+                  alt="ActiveUltraFeedback pipeline: response generation, reward prediction, response pair selection, preference annotation and reward model training">
+              </button>
+              <div>
+                <h3 class="pub-title"><a href="https://arxiv.org/abs/2603.09692">ActiveUltraFeedback: Efficient
+                    Preference Data Generation using Active Learning</a></h3>
+                <p class="pub-authors">D. Melikidze*, <strong>M. Schneider*</strong>, J. Lam*, M. Wertich*, I. Hakimi,
+                  B. Pásztor, A. Krause</p>
+                <ul class="chips">
+                  <li class="chips-venue"><span class="venue is-accepted">ICML 2026</span></li>
+                  <li><a href="https://arxiv.org/abs/2603.09692">Paper</a></li>
+                  <li><a href="https://github.com/lasgroup/ActiveUltraFeedback">Code</a></li>
+                  <li><a href="https://lasgroup.github.io/rlhf/ActiveUltraFeedback.html">Project</a></li>
+                  <li><a href="https://huggingface.co/ActiveUltraFeedback">Data</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="row pub spot" data-reveal>
+              <div class="pub-fig">
+                <img src="assets/figures/apertus.png" width="999" height="98" loading="lazy" alt="Apertus logo">
+              </div>
+              <div>
+                <h3 class="pub-title"><a href="https://arxiv.org/abs/2509.14233">Apertus: Democratizing Open and
+                    Compliant LLMs for Global Language Environments</a></h3>
+                <p class="pub-authors">The Apertus Team, including <strong>M. Schneider</strong></p>
+                <ul class="chips">
+                  <li class="chips-venue"><span class="venue is-accepted">ACL 2026</span></li>
+                  <li><a href="https://arxiv.org/abs/2509.14233">Paper</a></li>
+                  <li><a href="https://huggingface.co/swiss-ai">Models</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="row pub spot" data-reveal>
+              <button class="pub-fig" type="button">
+                <img src="assets/figures/simab.svg" width="1421" height="466" loading="lazy"
+                  alt="SimAB pipeline: input processing, persona generation, persona simulation and summary generation">
+              </button>
+              <div>
+                <h3 class="pub-title"><a href="https://arxiv.org/abs/2603.01024">SimAB: Simulating A/B Tests with
+                    Persona-Conditioned AI Agents for Rapid Design Evaluation</a></h3>
+                <p class="pub-authors">T. Rieder*, <strong>M. Schneider*</strong>, M. Truss, V. Tsaplin, A. Rublea, S.
+                  Dere, F. Chicharro Sanz, T. Reiss, M. D. Dogan</p>
+                <p class="pub-note">Under review · US Patent</p>
+                <ul class="chips">
+                  <li class="chips-venue"><span class="venue">Preprint</span></li>
+                  <li><a href="https://arxiv.org/abs/2603.01024">Paper</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <p class="footnote">* Equal contribution</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="container">
+        <h2 class="section-title">Experience</h2>
+        <ul class="rows">
+          <li class="row xp spot" data-reveal>
+            <div class="row-meta">Sep – Dec 2026<br>Zurich</div>
+            <div>
+              <p class="row-head">AI Engineer Intern <span>· QuantCo</span></p>
+            </div>
+          </li>
+          <li class="row xp spot" data-reveal>
+            <div class="row-meta">Jun – Sep 2026<br>Amsterdam</div>
+            <div>
+              <p class="row-head">Software Engineer Intern <span>· Optiver</span></p>
+              <p class="row-sub">Data pipelines for pricing research in the Pricing Quantitative Research team.</p>
+            </div>
+          </li>
+          <li class="row xp spot" data-reveal>
+            <div class="row-meta">Feb 2025 – Jul 2026<br>Zurich</div>
+            <div>
+              <p class="row-head">Research Assistant <span>· ETH AI Center, Learning &amp; Adaptive Systems Group</span>
+              </p>
+              <p class="row-sub">LLM post-training for <a href="https://huggingface.co/swiss-ai">Apertus</a> and active
+                learning for preference data generation.</p>
+            </div>
+          </li>
+          <li class="row xp spot" data-reveal>
+            <div class="row-meta">Jul – Dec 2025<br>Basel</div>
+            <div>
+              <p class="row-head">Software Engineer Intern, Machine Learning <span>· Adobe Research</span></p>
+              <p class="row-sub">LLM agents that simulate A/B tests for rapid design evaluation.</p>
+            </div>
+          </li>
+          <li class="row xp spot" data-reveal>
+            <div class="row-meta">Jun 2022 – Aug 2024<br>Aachen</div>
+            <div>
+              <p class="row-head">Research Assistant <span>· RWTH Aachen University, Visual Computing Institute</span>
+              </p>
+              <p class="row-sub">3D mesh generation with graph neural networks and computer vision tools for museum
+                curators.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <ul class="rows">
+          <li class="row xp spot" data-reveal>
+            <div class="row-meta">Sep 2024 – now</div>
+            <div>
+              <p class="row-head">MSc Computer Science <span>· ETH Zurich</span></p>
+              <p class="row-sub">Major in Machine Intelligence, minor in Computer Graphics.</p>
+            </div>
+          </li>
+          <li class="row xp spot" data-reveal>
+            <div class="row-meta">Oct 2021 – Aug 2024</div>
+            <div>
+              <p class="row-head">BSc Computer Science <span>· RWTH Aachen University</span></p>
+              <p class="row-sub">Focus on machine learning and visual computing.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="cards">
+          <article class="card spot" data-reveal>
+            <h3>Project Face Off</h3>
+            <p>AI personas that simulate A/B tests for marketing designs in seconds. Started as my internship prototype
+              at Adobe Research and voted best Sneak at Adobe Summit 2026.</p>
+            <ul class="chips">
+              <li><a href="https://research.adobe.com/news/summit-sneak-winner-project-face-off/">Article</a></li>
+              <li><a href="https://business.adobe.com/events/adobe-summit-sneaks/project-face-off.html">Demo</a></li>
+              <li><a href="https://arxiv.org/abs/2603.01024">Paper</a></li>
+            </ul>
+          </article>
+          <article class="card spot" data-reveal style="--d: 80ms">
+            <h3>The Curator's Machine</h3>
+            <p>Open-source tool that lets museum curators explore their collections with vision–language models
+              fine-tuned on their own data.</p>
+            <ul class="chips">
+              <li><a href="https://github.com/VCI-RWTH/TrainingTheArchive">Code</a></li>
+              <li><a href="https://trainingthearchive.ludwigforum.de/en/curators-machine-en/">Project</a></li>
+            </ul>
+          </article>
+          <article class="card spot" data-reveal style="--d: 160ms">
+            <h3>SnapTeX</h3>
+            <p>Utility tool using locally hosted VLMs to support robust LaTeX parsing.</p>
+            <ul class="chips">
+              <li><a href="https://github.com/MariSchn/SnapTeX">Code</a></li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">© 2026 Marian Schneider · Last updated October 2026</div>
+  </footer>
+
+  <dialog class="lightbox" aria-label="Figure">
+    <button class="lightbox-close" type="button" aria-label="Close">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+        aria-hidden="true">
+        <path d="M18 6 6 18M6 6l12 12" />
+      </svg>
+    </button>
+    <figure>
+      <img src="" alt="">
+    </figure>
+  </dialog>
 </body>
 
 </html>
